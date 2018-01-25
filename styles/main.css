@@ -1,0 +1,142 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+  background-color: #444;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header ul {
+  padding: 0px 20px;
+  margin: 0px;
+}
+
+header h4 {
+  color: white;
+}
+
+#drop {
+  text-decoration: none;
+  color: black;
+}
+
+#drop:hover {
+  color: #555;
+}
+
+#bar {
+  padding: 0px 20px;
+  border: none !important;
+}
+
+.w3-dropdown-content {
+  background-color: #444;
+}
+
+.w3-card-1 {
+  background-color: #444;
+}
+
+.w3-card-1 a {
+  color: #999;
+}
+
+#dashed {
+  border-bottom-width: 1px; 
+  border-bottom-style: dashed;
+  border-bottom-color: #999;
+}
+
+#userimg {
+  width:30px;
+  border-radius: 5px;
+  margin: 5px 5px 0px 5px;
+}
+
+#underbar {
+  margin: 0px auto;
+  padding: 0px auto;
+  background-color: #888;
+  max-width: 1280px;
+}
+
+.hidden-xs li a {
+  color: white;
+}
+
+#maincont {
+  max-width: 1320px;
+}
+
+#menu2 {
+  margin-left:-30px; 
+}
+
+.submenu li {
+  list-style: none;
+}
+
+.submenu li a{
+  color: grey;
+  margin-left: -30px;
+  text-decoration: none;
+  list-style: none;
+}
+
+#icons {
+  margin: 20px auto;
+}
+
+
+footer, #menu3 {
+  background-color: #eee;
+  margin: 10px -45px auto -45px;
+}
+
+#bottom li a {
+  color: grey;
+}
+
+
+@media screen and (max-width: 554px) {
+  #bar { 
+    margin: 0px 10px; 
+  }
+  
+  #userimg {
+    margin: 5px 20px 0px 40px;
+  }
+
+  #sometext {
+    max-width: 320px;
+  }
+}
+
+@media screen and (min-width: 554px) {
+  #bar { 
+    visibility:hidden;
+  }
+  
+  #bar1 { 
+    display: none;
+  }
+}
+
